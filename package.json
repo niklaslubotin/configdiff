@@ -1,0 +1,26 @@
+{
+  "name": "configdiff",
+  "version": "1.0.0",
+  "description": "A tool that compares configuration files across environments and highlights drift",
+  "main": "src/configdiff.js",
+  "bin": {
+    "configdiff": "src/configdiff.js"
+  },
+  "scripts": {
+    "start": "node src/configdiff.js",
+    "test": "node test/test.js",
+    "tracker": "node src/progress-tracker.js",
+    "roadmap": "node src/progress-tracker.js roadmap"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "cli",
+    "config",
+    "drift-detection",
+    "devops",
+    "configdiff"
+  ]
+}
